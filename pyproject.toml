@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pytest-train"
+version = "0.1.1"
+description = "Starting to learn Pytest!!"
+authors = ["rishogolla <rishavputatunda@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pytest_train"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
